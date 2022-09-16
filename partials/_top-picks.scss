@@ -8,21 +8,17 @@
   background: color.adjust(variables.$primary, $lightness: 5%);
   @include text.small-cap;
   color: color.adjust(variables.$primary, $whiteness: 100%);
-
   &__header {
     border-left: solid 5px variables.$primary;
     padding-left: 20px;
   }
-
   &__title {
     margin: 0;
     font-family: arial;
-  }
-  
+  } 
   &__desc {
     opacity: 0.7;
-  }
-  
+  } 
   &__wrapper {
     display: flex;
     margin: 0 -5px;
