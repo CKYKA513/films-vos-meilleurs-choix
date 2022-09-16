@@ -12,9 +12,10 @@
         width: 100%;
         border: none;
         background: color.adjust(variables.$primary, $lightness: 15%);
+        color: color.complement(variables.$primary); 
         &:hover {
             background: color.adjust(variables.$primary, $lightness: 25%);
         }
-        color: color.complement(variables.$primary);       
+              
     }
 }
